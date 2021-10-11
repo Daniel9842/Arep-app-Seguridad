@@ -24,9 +24,9 @@ si pasa el proceso de autenticación del login.
 
 Para comprobar iniciar la clase LoginService y en el navegador colocar lo siguiente:
 
-Iniciar clase LoginService por consola:
-java -cp "target/classes;target/dependency/*" edu.escuelaing.arep.secureappspark.LoginService
-Navegador:
+Iniciar clase LoginService por consola:<br>
+java -cp "target/classes;target/dependency/*" edu.escuelaing.arep.secureappspark.LoginService<br>
+Navegador:<br>
 https://localhost:4567/loginUser?user=nombreUsuario&passwd=contraseñaUsuario
 
 ![login login](images/login.PNG "login")<br>
