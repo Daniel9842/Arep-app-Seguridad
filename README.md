@@ -22,6 +22,13 @@ La clase loginService se encarga de obtener los parámetros de entrada del usuar
 los parámetros, se crea la conexión a la url para que se genere la respuesta, al finalizar el proceso se muestra la respuesta generada
 si pasa el proceso de autenticación del login.
 
+Para comprobar iniciar la clase LoginService y en el navegador colocar lo siguiente:
+
+Iniciar clase LoginService por consola:
+java -cp "target/classes;target/dependency/*" edu.escuelaing.arep.secureappspark.LoginService
+Navegador:
+https://localhost:4567/loginUser?user=nombreUsuario&passwd=contraseñaUsuario
+
 ![login login](images/login.PNG "login")<br>
 
 
